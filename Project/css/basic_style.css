@@ -9,9 +9,9 @@ h1{
 }
 
 .container {
-    width: 400px;
+    width: 450px;
     height: 450px;
-    backgroung-color: #faebd7;
+    background-color: #faebd7;
     border: 2px solid black;
     border-radius: 5%;
 }
@@ -66,7 +66,7 @@ h1{
 /*-----------------------------------------------
     HOVER, TRANSLATE & TRANSFORM EFFECTS
 -----------------------------------------------*/
-.container .squares:nth-child(-n+4) :hover{
+.container .squares:nth-child(-n+4):hover {
     background-image: url("../images/icons/smileyface1.png");
     transform: scale(.5);
     animation-name: race;
@@ -75,19 +75,19 @@ h1{
     animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
 }
 
-.squares:nth-child(1) :hover {
+.squares:nth-child(1):hover {
     background: #13b4ff;
 }
 
-.squares:nth-child(2) :hover {
+.squares:nth-child(2):hover {
     background: #d861af;
 }
 
-.squares:nth-child(3) :hover {
+.squares:nth-child(3):hover {
     background: #81205f;
 }
 
-.squares:nth-child(4) :hover{
+.squares:nth-child(4):hover {
     background: #77b800;
 }
 
